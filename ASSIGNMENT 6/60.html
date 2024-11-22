@@ -1,0 +1,13 @@
+<input type="text" id="txt">
+<button onclick="checkDataType()">Check</button>
+
+<script>
+  function checkDataType() {
+    let value = document.getElementById("txt").value;
+    if (isNaN(value)) {
+      console.log("Input is a string");
+    } else {
+      console.log("Input is a number");
+    }
+  }
+</script>
